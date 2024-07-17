@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="Description" content="A Student made website for the famous restaurant chain, Red Lobster" />
+<title>Red Lobster Website | Student Made, Brayan Gonzalez</title>
+<style>
+	body {
+		margin:0;
+		background-image: url(table-background.jpeg);
+		background-size: cover
+	}
+	
+	wrapper{
+		display:block;
+		width:400px;
+		margin: auto;
+		background-color: white;
+	}
+	
+	button{
+		width:50%;
+		height:50%;
+		margin:auto;
+		display:block;
+		border-radius:15px;
+		font-size: 12px;
+		font-weight:bold;
+		background-color:antiquewhite;
+		box-shadow:5px 5px 10px rgba(0,0,0,.5);
+	}
+	button:hover{
+		background-color: rosybrown;
+		box-shadow:5px 5px 10px rgba(0,0,0,0);
+	}
+	
+	.social{
+		width:130px;
+	}
+	
+	h3{
+		margin:0;
+	}
+	
+	footer{
+		text-align: center;
+	}
+	
+	footer p{
+		text-align: left;
+	}
+	
+	.seafood{
+		flex: 0px 0px 360px;
+		width: auto;
+		border: none;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	#roller{
+			display: flex;
+			overflow-x: auto;
+			margin: 30px auto;
+		}
+	
+	a{
+		text-align: center;
+		display: block;
+		margin: 10px auto;
+		text-decoration: none;
+		}
+	
+	a:hover{
+		text-shadow: 0px 0px 10px white;
+		}
+	
+	h2 {
+		margin:0px;
+		text-align: center;
+		background-color: darkred;
+		color:white;
+		padding:20px;
+		
+	}
+	h1 {
+		text-align: center;
+	}
+	section {
+		
+	}
+	iframe{
+		margin:auto;
+		display: block;
+	}
+	.map {
+		padding-top:10px;
+		padding-bottom: 10px;
+	}
+	p {
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		margin:0px;
+		text-align: center;
+		background-color: darkred;
+		color:white;
+		padding:20px;
+	}
+	.banner {
+		width:400px;
+	}
+	@media (min-width:1000px) {
+		wrapper {
+			width: 1000px;
+		}
+		.banner {
+			width:100%;
+		}
+		.logo {
+			width:200px;
+			display:inline-block;
+			vertical-align: middle;
+			
+		}
+		header{
+			background-color: black;
+		}
+		.signin{
+			display:inline-block;
+			margin: 95px 0px 0px auto;
+			width: 100px;
+		}
+		header a {
+			display: inline-block;
+			text-align: right;
+			width: 750px;
+		}
+		.signincontainer {
+			width: 795px;
+			display: inline-block;
+			vertical-align: middle;
+			height: 200px;
+		}
+		header button {
+			background-color: white;
+		}
+		.map {
+			display: inline-block;
+			vertical-align: middle;
+			padding-left: 50px;
+			padding-bottom: 10px;
+		}
+		iframe {
+			display: inline-block;
+			vertical-align: middle;
+			margin-left: 50px;
+			padding-bottom: 20px;
+		}
+	}
+</style>
+</head>
+
+<body>
+	<wrapper>
+		<header>
+		<img src="logo.png" alt="Red Lobster Logo" class="logo">
+		<div class="signincontainer"><a href="https://auth.redlobster.com/login?state=hKFo2SBQdXNOQ3Ntdm83cHBRMnVEZGxaQnh1Y1JtRzRxUnRKVqFupWxvZ2luo3RpZNkgdzFKR09LU1ctWUhQdTduTGRSMGI3c1pkelVFWTVkR06jY2lk2SBxVjdOQnBGamI0Y2hIUmFnNHh2Q2pCSjlDR3R3Q0pDdA&client=qV7NBpFjb4chHRag4xvCjBJ9CGtwCJCt&protocol=oauth2&redirect_uri=https%3A%2F%2Fwww.redlobster.com%2Fcallback&response_type=code&scope=openid%20profile%20email%20offline_access&code_challenge=LkMICQpZWvYUSsVrlz4U6tkmuC7IEqlUyTsFvImTpvQ&code_challenge_method=S256&nonce=638560510496279238.M2EyMWFmOTUtNTFmYS00NDBkLWI0MmMtZDgxNzVlNjViMjUxZmI5Mjk3NGMtZDM1MS00OTkxLTkxYzEtOWNkMTVhMGU3MDli&audience=https%3A%2F%2Fmulesoft.redlobster.com&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.5.0.0" target="new"><button class="signin">Sign In</button></a></div>
+		</header>
+		<main>
+			<h1>
+				<em>That's just how we sea food differently!</em>
+			</h1>
+			<img src="restauraunt.jpeg" alt="Lobster Restauraunt" class="banner">
+			<h2>Explore Our Menu</h2>
+		<section id="roller">
+			<a href="https://www.redlobster.com/menu/signature-feasts/surf-turf-walts-favorite-shrimp-7-oz-sirloin" target="new"><img class="seafood" src="Colossal-Shrimp-and-Steak.png" alt="Shrimp & 7 oz. Sirloin"></a>
+			<a href="https://www.redlobster.com/menu/signature-feasts/admirals-feast" target="new"><img class="seafood" src="Admirals-Feast.png" alt="Admiral's Feast"></a>
+			<a href="https://www.redlobster.com/menu/signature-feasts/surf-turf-maine-lobster-tail-6-oz-filet-mignon" target="new"><img class="seafood" src="filet-imperial_shrimp_lobster.jpg" alt="Lobster Tail & 6 oz. Filet Mignon"></a>
+			<a href="https://www.redlobster.com/menu/signature-feasts/grilled-lobster-shrimp-and-salmon" target="new"><img class="seafood" src="grilled-lobster-shrimp-salmon.png" alt="Grilled Lobster, Shrimp, Salmon"></a>
+		</section>
+			<div><a href="https://www.redlobster.com/menu"><button>Find more Signature Dishes</button></a></div>
+			<iframe width="400" height="320" src="https://www.youtube.com/embed/ENM0CpFPQxg?si=Mu81GU3E5glKI2E7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			
+			<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229822.2393885067!2d-80.27881307061891!3d25.837451777966894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b9134968cca9%3A0x36c2b30cac961c5d!2sRed%20Lobster!5e0!3m2!1sen!2sus!4v1720629130041!5m2!1sen!2sus" width="400" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+		</main>
+		<footer>
+	<h3>Lets Be Friends</h3> <img src="social_media.jpeg" alt="Social Media" class="social">
+	<p>&copy;Brayan Gonzalez, 2024. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+		</footer>
+	</wrapper>
+	
+
+</body>
+
+</html>
