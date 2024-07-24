@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Invincible Fan-Website |2024 Brayan Gonzalez</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+	
+<style>
+.logo {
+		background-image: url("Invincible_logo_series.png");
+		width:350px;
+		height:100px;
+		background-size: cover;
+	}
+	
+.logo:hover{
+		background-image: url("Invincible_logo_blooded.png");
+		
+	}
+	
+wrapper{
+		display: block;
+		background-color:#e21617;
+		width:1000px;
+		height: 100vh;
+		margin: 0 auto;
+		position: relative;
+	overflow: hidden;
+	}
+.banner{
+		background-image: url("nolan_grayson_silhouette.png");
+		width: 350px;
+		position: absolute; left:0px; top:600px; z-index: 10;
+		
+	}
+	
+.banner:hover{
+		background-image:url("mark_grayson_silhouette.png");
+	}
+	
+footer{
+		font-size:12px;
+		padding:16px;
+		color:white;
+		text-align: center;
+		position: absolute; bottom:0px;
+		height:100px;
+		background-color: black;
+	z-index: 30;
+	}
+	
+header{
+		color:white;
+		background-color: black;
+		text-align: center;
+		background-color: black;
+    	padding: 25px;
+    	box-shadow: 0 0 3px black;
+	}
+.navbar{
+		display: block;
+		margin:20px auto;
+		position: relative;
+    	font-size: 18px;
+    	color: #fff;
+    	font-weight: 400;
+    	text-decoration: none;
+    	margin-left: -210px;
+		width: 65%;
+	}
+	
+	
+li{
+		padding: 0px;
+		font-size: 20px;
+		margin:0px;
+		display: list-item;
+	}
+body {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    text-align: center;
+    background-color: #008CBA;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.overlay {
+  position: absolute;
+  top: 550px;
+  left: 0;
+  height: 350px;
+  width: 350px;
+  transition: .5s ease;
+	background-image: url("nolan_grayson_silhouette.png");
+	background-size: cover;
+  z-index: 10;
+	}
+	
+.overlay:hover {
+background-image: url("mark_grayson_silhouette.png");
+}
+wrapper:hover{
+ 	background-color:#141414;
+	}
+.logo, .navbar {
+		display: inline-block;
+		vertical-align: middle;
+	}
+#myVideo {
+	position:relative;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100vh;
+	x-index: -10;
+}
+.home,.seasons,.cast,.watch {
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 15px;
+ 	background: transparent;
+	padding: 0.5rem 1rem;
+	transition-duration: 0.4s;
+		
+	background-clip: padding-box, border-box;
+ 	background-origin: border-box;
+  	border: 3px solid transparent;
+  	border-radius: 1.75rem;
+  	color: white;
+  	cursor: pointer;
+ 	margin-bottom: 20px;
+}	
+	
+	
+.home:hover, .seasons:hover, .cast:hover, .watch:hover{
+ 		 background-color:yellow;
+ 		 color: steelblue;
+}
+	.figure {
+		display: inline-block;
+		vertical-align: bottom;
+		padding-top: 20px;
+		width: 400px;
+		position: absolute;
+		z-index: 20;
+		top:510px; right:-40px;
+		transform: rotate(-20deg)
+	}
+</style>
+</head>
+
+<body>
+	<header class="header">
+		<div class="logo"></div>
+			<nav class="navbar">
+				<button class="home">Home</button>
+			<a target="_blank" href="https://www.amazon.com/INVINCIBLE-SEASON-1/dp/B08WJMRHYZ">
+				<button class="seasons">Seasons</button>
+			</a>
+			<a target="_blank" href="https://m.imdb.com/title/tt6741278/fullcredits/cast">
+				<button class="cast">Cast</button>
+			</a>	
+			<a target="_blank" href="https://www.amazon.com/INVINCIBLE-SEASON-1/dp/B08WJMRHYZ">
+			<button class="watch">Watch Now</button>
+			</a>
+			</nav>
+	</header>
+	
+<wrapper>
+	
+<img class="figure" src="Mark_Grayson_Invincible_.png">
+
+	<div class="overlay"></div>
+	
+	
+<video autoplay muted loop id="myVideo">
+  <source src="InvincibleClip.mp4" type="video/mp4">
+</video>
+	
+<footer>
+<p>© 2024, Brayan Gonzalez. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>	
+</footer>
+</wrapper>
+
+</body>
+	
+
+</html>
